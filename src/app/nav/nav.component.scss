@@ -1,0 +1,37 @@
+.myFooter{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 60px;
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.94);
+    height: 50px;
+}
+
+.icon{
+  display: inline-block;
+  padding: 10px;
+  // margin-top: 10px;
+  width:25px;
+
+  &:hover{
+    background: rgba(48, 47, 47, 0.94);
+  }
+}
+
+#windows{
+  height: 25px;
+  width: 25px;
+  background-image: url('../../assets/imgs/windows2.png');
+  background-position: center;
+  background-size: 100%;
+
+  &:hover{
+    background-image: url('../../assets/imgs/windows1.png');
+    background-position: center;
+    background-size: 100%;
+  }
+}
+
