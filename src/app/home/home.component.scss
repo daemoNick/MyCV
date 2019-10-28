@@ -22,9 +22,9 @@
 .folder{
   width: 80px;
   margin: 10px;
-  // border: 3px solid #333;
-  // background: #dfdfdf;
+  min-height: 90px;
   text-align: center;
+  position: relative;
 
   &:focus{
     outline: none;
@@ -35,20 +35,31 @@
 }
 
 
-.folder1{
-  min-height: 90px;
-}
+// .folder1{
 
-.folder2{
-  min-height: 90px;
-}
 
-.folder3{
-  min-height: 90px;
-}
+// }
+
+// .folder2{
+//   min-height: 90px;
+// }
+
+// .folder3{
+//   min-height: 90px;
+// }
 
 
 .desktop-icon{
   width: 60px;
   height: 80px;
+}
+
+.folder-name{
+  // position: absolute;
+  font-size: .6em;
+  // line-height: 1em;
+  color: #fff;
+  // margin-bottom: 5px;
+  top: 0;
+  margin-top: -5%;
 }
