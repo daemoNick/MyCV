@@ -1,5 +1,10 @@
-<router-outlet></router-outlet>
+<mat-sidenav-container  (backdropClick)="close()">
+  <mat-sidenav #sidenav fixedInViewport="true" fixedTopGap="120" [(opened)]="menuOpened">Sidenav</mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
 
 <!-- footer -->
-<app-nav></app-nav>
+<app-nav (menuToggle)="displayMenu($event)"></app-nav>
 
