@@ -22,6 +22,37 @@
   }
 }
 
+.far-right{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-right: 70px;
+}
+
+#time-container{
+  text-align: center;
+  // height: 25px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  cursor: default;
+  text-align: center;
+
+  &:hover{
+    background: rgba(48, 47, 47, 0.94);
+  }
+}
+
+#time{
+  color: #fff;
+  font-size: .8em;
+  padding: 0;
+  margin-top: 13px;
+}
+
+// ------------------------------- icons------------------------------------
+
 #windows{
   height: 25px;
   width: 25px;
@@ -34,5 +65,29 @@
     background-position: center;
     background-size: 100%;
   }
+}
+
+#battery{
+  height: 25px;
+  width: 25px;
+  background-image: url('../../assets/imgs/nav-battery2.png');
+  background-position: center;
+  background-size: 100%;
+}
+
+#wifi{
+  height: 25px;
+  width: 25px;
+  background-image: url('../../assets/imgs/nav-wifi2.png');
+  background-position: center;
+  background-size: 100%;
+}
+
+#volume{
+  height: 25px;
+  width: 25px;
+  background-image: url('../../assets/imgs/nav-volume2.png');
+  background-position: center;
+  background-size: 100%;
 }
 
